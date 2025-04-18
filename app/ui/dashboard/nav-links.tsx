@@ -24,12 +24,6 @@ const links = [
 
 export default function NavLinks() {
   const pathname = usePathname();
-  console.log(pathname + 'sdfsd');
-
-  useEffect(() => {
-    console.log(pathname);
-    console.log('🔥 useEffect — значит, точно в браузере');
-  }, []);
 
   return (
     <>
